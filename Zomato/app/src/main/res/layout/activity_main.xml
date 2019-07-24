@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/zomato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/zomato"
+        android:scaleType="fitStart"
+        android:layout_alignParentTop="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/HourOFOperation"
+        android:src="@drawable/zomat"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:layout_below="@+id/zomato"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zomato is an restaurant search which provides information and reviews of restaurants, including images of menus where the restaurant does not have its own website and also online delivery."
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/about"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:id="@+id/Informaiton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other Information"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:layout_below="@+id/About"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/headquarters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Headquarters: DLF Phase V, Gurugram, Haryana, India"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/Informaiton"/>
+    <TextView
+        android:id="@+id/Founder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="Founder(s): Deepinder Goyal, Pankaj Chaddah"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@id/headquarters" />
+    <TextView
+        android:id="@+id/User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Users: 19.1 crore (191 million) visits monthly"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/Founder"/>
+    <TextView
+        android:id="@+id/Founded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Founded: July 2008"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/User"/>
+    <TextView
+        android:id="@+id/Available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available in: English Language, Turkish language, MORE"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/Founded"/>
+    <TextView
+        android:id="@+id/PhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone Number : +91 011 30806376"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/Available"/>
+    <TextView
+        android:id="@+id/HourOFOperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hour Of Operation:24 Hours Available"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        android:layout_below="@+id/PhoneNo"/>
+
+
+</RelativeLayout>
